@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS + DOM Manipulation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    button {
+      margin: 10px 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    .highlight {
+      background-color: #ffffcc;
+      color: #006600;
+    }
+    .new-box {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #d1ecf1;
+      border: 1px solid #0c5460;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="page-title">JavaScript DOM Interaction</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="intro-text">Welcome! Click the buttons to interact with the DOM.</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </section>
+
+    <article id="dynamic-area"></article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LearnJS. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
